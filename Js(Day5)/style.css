@@ -1,0 +1,33 @@
+#main{
+    width: 800px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#imgwrapper{
+    width: 600px;
+    margin: 10px auto;
+}
+
+#controls{
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px auto;
+        text-align: center;
+}  
+
+input{
+    width: 100px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+input:focus{
+   background-color: pink;
+}
+img{
+    width: 500px;
+    height: 400px;
+}

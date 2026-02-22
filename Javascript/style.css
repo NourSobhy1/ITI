@@ -1,0 +1,48 @@
+body {
+    background: white;
+    color: black;
+    transition: 0.3s;
+}
+
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+/* .input{
+    padding: 30px;
+} */
+label{
+    margin: 0px 60px;
+}
+input{
+    margin: 0px 10px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin: 0px 270px;
+}
+
+table {
+    margin-top: 30px;
+    width: 500px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+#addBtn {
+    background-color: #8fd14f;
+    padding: 10px 30px;
+    border: none;
+}
+.delete {
+    color: red;
+    text-decoration: underline;
+}
